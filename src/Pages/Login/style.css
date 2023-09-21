@@ -1,0 +1,112 @@
+.login{
+  display: flex;
+}
+
+.login .login-left{
+  width: 45%;
+  background: url('../../images/gamers.png');
+  background-color: #1565D8; 
+  background-blend-mode: overlay;
+  background-position: center;
+}
+.login .login-left article:first-of-type{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 70px 40px 100px;
+}
+.login .login-left article:first-of-type span{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.login .login-left article:last-of-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 70px 40px 100px;
+
+}
+.login .login-left article:last-of-type p{
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 50px; 
+}
+.login .login-left article:last-of-type span{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px; 
+}
+.login .login-left div {
+  display: flex;
+  justify-content: end;
+  padding: 0px 40px 77px;
+  margin-top: -55px;
+}
+.login .login-right {
+  width: 55%;
+  background: #FFF;
+}
+.login .login-right .back{
+  display:flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 5px;
+  padding: 70px 0px 80px;
+}
+.login .login-right .back span{
+  color: #8692A6;
+  font-size: 14px;
+  font-weight: 600;
+}
+.login .login-right .back img{
+  color: rgba(134, 146, 166, 1);
+  height: 15px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.login .login-right .title-form{
+  color: #8692A6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  padding: 5px 0 15px;
+}
+.login .login-right .colum{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-bottom: 15px;
+}
+.login .login-right .row{
+  display: flex;
+  column-gap: 5px;
+  }
+  form{
+  width: 80%;
+  }
+  form .sub button{
+    border-radius: 6px;
+    background: #1565D8;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin: 25px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  form .sub .sub-two{
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+  }
